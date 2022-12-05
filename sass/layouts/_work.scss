@@ -1,26 +1,27 @@
-.work.section {
-    padding-top: 0;
-  }
-  .work-title {
+.work {
+  padding-top: 0;
+  padding-bottom: 94px;
+  &__title {
     margin-bottom: 50px;
     color: var(--primary-title-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
   }
-  .work-list {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     list-style: none;
   }
-  .work-item {
+  &__item {
     flex-basis: calc((100% - 60px) / 3);
   }
-  .position-name {
+
+  &__wrap {
     position: relative;
   }
-  .work-name {
+  &__name {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -35,3 +36,4 @@
     text-transform: uppercase;
     color: var(--white-color);
   }
+}
